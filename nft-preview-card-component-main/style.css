@@ -1,5 +1,130 @@
+
+
 body{
     margin: 0;
     padding: 0;
     background-color: hsl(217, 54%, 11%);
+}
+
+.background-border{
+    border: solid hsl(216, 50%, 16%) 3px;
+    background-color: hsl(216, 50%, 16%);
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 40%;
+    margin-top: 6%;
+    font-family: Outfit;
+    
+
+}
+
+.NFT-image{
+
+    height: 280px;
+    width: 260px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-left: 20px;
+    
+}
+
+.bold-text{
+    text-align: left;
+    border: solid yello;
+    height: 25px;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.soft-text{
+    border: solid gree;
+    color: hsl(215, 51%, 70%);
+    font-weight: 100;
+    padding-left: 20px;
+    height: 50px;
+
+}
+
+.sharesAndDaysLeft{
+    display: flex;
+    border: solid whit;
+    
+    
+    
+}
+
+.ETH-Icon{
+
+    height: 22px;
+    width: 12px;
+    padding-left: 20px;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+
+    margin: 3px;
+    padding-left: 3px;
+}
+
+
+
+.clock-icon{
+
+}
+
+.shares{
+
+    display: flex;
+    border: solid blac ;
+    width: 180px;
+    height: 20px;
+    
+
+}
+
+.days-left{
+
+    height: 20px;
+    border: solid whit;
+    text-align: center;
+    display: flex;
+}
+
+.days-remaining{
+margin: 0;
+padding-left: 8px;
+color: hsl(215, 51%, 70%);
+font-weight: 100;
+}
+
+.line-width{
+    margin-top: 20px;
+    width: 250px;
+    border: solid 1px hsl(215, 32%, 27%);
+}
+
+
+.nft-creator{
+    display: flex;
+}
+
+.portfolio-icon{
+    height: 20px;
+    width: 20px;
+    border: solid white 1px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.creator-name{
+    padding-left: 15px;
+    color: hsl(215, 51%, 70%);;
+}
+
+.name{
+
+    color: white;
 }
